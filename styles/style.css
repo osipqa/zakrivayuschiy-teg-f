@@ -14,10 +14,11 @@
 
 */
 
-@supports (-webkit-text-stroke: 1px) or (text-stroke: 1px) {
+@supports (-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff) {
   .card__image-label {
     text-stroke: 1px var(--stroke-color);
     -webkit-text-stroke: 1px var(--stroke-color);
+    text-shadow: -1px 0 var(--stroke-color), 0 1px var(--stroke-color), 0 -1px var(--stroke-color), 1px 0 var(--stroke-color);
   }
 }
 
@@ -137,6 +138,7 @@
   opacity: 0.5;
   mix-blend-mode: hard-light;
   -webkit-text-stroke: 1px var(--stroke-color);
+  text-shadow:  0 var(--stroke-color), 0 1px var(--stroke-color), 0 -1px var(--stroke-color), 1px 0 var(--stroke-color);
 }
 
 .card__content {
