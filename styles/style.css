@@ -14,7 +14,7 @@
 
 */
 
-@supports (-webkit-text-stroke: 1px;) or (text-stroke: 1px) {
+@supports (-webkit-text-stroke: 1px) or (text-stroke: 1px) {
   .card__image-label {
     text-stroke: 1px var(--stroke-color);
     -webkit-text-stroke: 1px var(--stroke-color);
