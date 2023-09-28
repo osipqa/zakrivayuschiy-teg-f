@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/animations.css">
     <link rel="stylesheet" href="./styles/themes.css">
-    <link rel="icon" href="./images/icons/favicon.ico" sizes="any">
-    <link class="fill-content" rel="icon" href="./images/icons/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="./images/icons/favicon-mobile.png">
+    <link rel="icon" href="./images/favicon/favicon.ico" sizes="any">
+    <link class="fill-content" rel="icon" href="./images/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/favicon/favicon-mobile.png">
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
-    <header class="header">
+    <header class="content header">
       <a class="header__title">&lt;/html&gt;</a>
       <h2 class="header__description">закрывающий тег</h2>
       <nav class="theme-menu header__theme-menu">
@@ -47,7 +47,24 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main class="content main">
+      <article class="card">
+        <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+        <div class="card__image">
+          <span class="card__image-label">&lt;/html&gt;</span>
+          <img class="image" src="./images/image.png" alt="машинка">
+        </div>
+        <div class="card__content">
+          <p class="card__image-text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+          <p class="card__image-text">Место для ваших воспоминаний о начале обучения.</p>
+          <div class="card__buttons">
+            <button class="card_heart-icon"></button>
+            <button class="buttons card__heart-text">Like</button>
+          </div>
+        </div>
+      </article>
+      <button class="button-remember">Сохранить на память</button>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
