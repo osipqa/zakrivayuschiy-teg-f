@@ -17,6 +17,8 @@
   content: '▶';
   position: absolute;
   animation: path 0.5s ease-in-out infinite alternate;
+  top: 0;
+  left: 0;
 }
 
 .theme-menu__button:focus-visible {
