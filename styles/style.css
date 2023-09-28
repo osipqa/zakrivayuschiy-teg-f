@@ -14,6 +14,13 @@
 
 */
 
+@supports (-webkit-text-stroke: 1px;) or (text-stroke: 1px) {
+  .card__image-label {
+    text-stroke: 1px var(--stroke-color);
+    -webkit-text-stroke: 1px var(--stroke-color);
+  }
+}
+
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -337,12 +344,11 @@ dialog:not([open]) {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  width: 100%;;
+  width: 100%;
   padding: 15px 20px;
   border: 2px solid var(--border-color);
   background-color: var(--bg-color-header);
   cursor: pointer;
-  width: 100%;
   position: relative;
   text-transform: uppercase;
 }
