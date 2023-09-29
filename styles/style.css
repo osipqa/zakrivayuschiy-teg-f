@@ -129,7 +129,6 @@
   display: block;
   width: 100%;
   object-fit: contain;
-  background-size: cover;
 }
 
 .card__image-label {
