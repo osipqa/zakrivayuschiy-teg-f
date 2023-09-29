@@ -18,7 +18,7 @@
   .card__image-label {
     text-stroke: 1px var(--stroke-color);
     -webkit-text-stroke: 1px var(--stroke-color);
-    text-shadow: -1px 0 var(--stroke-color), 0 1px var(--stroke-color), 0 -1px var(--stroke-color), 1px 0 var(--stroke-color);
+    text-shadow: none;
   }
 }
 
